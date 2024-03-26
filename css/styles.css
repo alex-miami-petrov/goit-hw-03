@@ -1,0 +1,169 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: #434455;
+  background-color: #ffffff;
+  line-height: 1.5;
+}
+
+.link {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+/* NAV */
+
+.studio {
+  color: #2e2f42;
+}
+.page-nav {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.page-nav .link {
+  color: #2e2f42;
+}
+
+.page-nav .link:hover,
+.page-nav .link:focus {
+  color: #404bbf;
+}
+
+.link-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* BUTTON */
+
+.button {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
+/* CONTACTS */
+
+.contacts .link {
+  color: #434455;
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+/* HERO */
+
+.hero-background {
+  background-color: #2e2f42;
+}
+
+.hero-header {
+  color: #ffffff;
+  font-size: 56px;
+  text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+/* TEAM */
+
+.team {
+  background-color: #f4f4fd;
+}
+.title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.sub-title {
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+}
+
+.team-list-bg {
+  background-color: #ffffff;
+}
+
+.team-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* PORTFOLIO */
+
+.portfolio-subtitle {
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio {
+  background-color: #ffffff;
+}
+
+.portfolio-bg {
+  background-color: #ffffff;
+}
+/* FOOTER */
+
+footer {
+  background-color: #2e2f42;
+}
+
+.studio-f {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
