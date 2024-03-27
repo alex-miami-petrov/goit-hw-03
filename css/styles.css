@@ -243,8 +243,7 @@ ul {
   padding-top: 120px;
   padding-bottom: 72px;
 }
-padding-top: 120px;
-padding-bottom: 72px;
+
 .portfolio-subtitle {
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -252,6 +251,14 @@ padding-bottom: 72px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  /* padding-top: 32px; */
+  margin-top: 32px;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  padding-bottom: 32px;
 }
 
 .portfolio {
@@ -265,12 +272,26 @@ padding-bottom: 72px;
 
 footer {
   background-color: #2e2f42;
-  padding-top: 312px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  /* display: flex; */
 }
 
 .footer-logo {
-  /* margin-top: 100px;
-  padding-bottom: 16px; */
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* padding-top: 100px; */
+
+  padding-bottom: 16px;
+  display: flex;
+  /* margin: 0 auto; */
 }
 
 .studio-f {
@@ -281,6 +302,8 @@ footer {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding-top: 16px;
-  padding-bottom: 100;
+  /* padding-top: 16px; */
+  /* padding-bottom: 100px; */
+  max-width: 264px;
+  /* display: flex; */
 }
