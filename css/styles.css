@@ -107,7 +107,6 @@ ul {
   letter-spacing: 0.04em;
   display: block;
   margin: 0 auto;
-  margin-bottom: 188px;
 }
 
 .button:hover,
@@ -161,9 +160,7 @@ ul {
   letter-spacing: 0.02em;
   display: flex;
   max-width: 496px;
-  margin-bottom: 48px;
-
-  /* padding: 188px 472px 292px; */
+  padding-bottom: 48px;
   margin: 0 auto;
 }
 
@@ -290,7 +287,8 @@ footer {
   /* padding-top: 100px; */
 
   padding-bottom: 16px;
-  display: flex;
+  display: inline-block;
+  /* display: flex; */
   /* margin: 0 auto; */
 }
 
