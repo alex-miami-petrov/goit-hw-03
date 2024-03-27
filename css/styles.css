@@ -27,7 +27,7 @@ img {
 }
 
 .container {
-  max-width: 1188px;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -61,7 +61,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin: 24px 76px 24px 156px;
+  padding: 24px 76px 24px 156px;
 }
 .nav {
   display: flex;
@@ -126,8 +126,15 @@ ul {
   font-style: normal;
   letter-spacing: 0.02em;
   display: flex;
-  flex-direction: row;
-  margin: 24px 40px;
+  /* flex-direction: row; */
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-right: 40px;
+}
+
+.contacts-list:first-child {
+  margin-left: 156px;
+  padding-right: 40px;
 }
 
 /* HERO */
