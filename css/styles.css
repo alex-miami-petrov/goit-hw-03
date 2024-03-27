@@ -8,7 +8,32 @@ body {
   line-height: 1.5;
 }
 
-.link {
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1188px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -21,8 +46,27 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.header {
+  display: flex;
+}
+
 /* NAV */
 
+.link-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 24px 76px 24px 156px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+}
 .studio {
   color: #2e2f42;
 }
@@ -30,26 +74,19 @@ ul {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: flex;
+  flex-direction: row;
 }
-.page-nav .link {
+.page-nav-item {
   color: #2e2f42;
+  display: flex;
+  flex-direction: row;
+  margin: 24px;
 }
 
-.page-nav .link:hover,
-.page-nav .link:focus {
+.page-nav-item:hover,
+.page-nav-item:focus {
   color: #404bbf;
-}
-
-.link-logo {
-  color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 /* BUTTON */
@@ -70,19 +107,27 @@ ul {
 
 /* CONTACTS */
 
-.contacts .link {
-  color: #434455;
-  font-style: normal;
-  letter-spacing: 0.02em;
-}
-
-.contacts .link:hover,
-.contacts .link:focus {
+.contacts-item:hover,
+.contacts-item:focus {
   color: #404bbf;
 }
 
 .contacts {
   font-style: normal;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts-item {
+  color: #434455;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  display: flex;
+  flex-direction: row;
+  margin: 24px 40px;
 }
 
 /* HERO */
@@ -97,6 +142,8 @@ ul {
   text-align: center;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  display: flex;
+  padding: 188px 472px 292px;
 }
 
 /* TEAM */
