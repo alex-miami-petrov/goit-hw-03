@@ -217,7 +217,7 @@ ul {
   padding-bottom: 8px;
 }
 
-.team-list-bg {
+.team-list {
   background-color: #ffffff;
 }
 
@@ -225,6 +225,9 @@ ul {
   font-size: 16px;
   letter-spacing: 0.02em;
   text-align: center;
+}
+
+.team-img {
 }
 
 /* PORTFOLIO */
@@ -262,9 +265,13 @@ ul {
   background-color: #ffffff;
 }
 
-.portfolio-bg {
+.portfolio-list {
   background-color: #ffffff;
 }
+
+.portfolio-img {
+}
+
 /* FOOTER */
 
 footer {
