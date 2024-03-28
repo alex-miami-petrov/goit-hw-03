@@ -166,6 +166,11 @@ ul {
 
 /* ADVANTAGES */
 
+.advantages {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 .advantages-list {
   display: flex;
 }
@@ -192,6 +197,8 @@ ul {
 
 .team {
   background-color: #f4f4fd;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .title {
   font-weight: 500;
@@ -232,6 +239,12 @@ ul {
 
 /* PORTFOLIO */
 
+.portfolio {
+  background-color: #ffffff;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 .portfolis-title {
   font-weight: 500;
   font-size: 36px;
@@ -259,10 +272,6 @@ ul {
   font-size: 16px;
   letter-spacing: 0.02em;
   padding-bottom: 32px;
-}
-
-.portfolio {
-  background-color: #ffffff;
 }
 
 .portfolio-list {
