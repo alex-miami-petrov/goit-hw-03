@@ -51,7 +51,7 @@ ul {
 
 /* HEADER */
 
-.header .container {
+.header-container {
   display: flex;
 }
 
@@ -75,22 +75,22 @@ ul {
 }
 .nav {
   display: flex;
-  flex-direction: row;
+  flex-grow: 1;
+  /* margin-right: 156px; */
 }
 .studio {
   color: #2e2f42;
 }
-.page-nav {
+.page-nav-list {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #2e2f42;
   display: flex;
-  flex-direction: row;
+  margin-right: 40px;
 }
 .page-nav-item {
   color: #2e2f42;
   display: flex;
-  flex-direction: row;
   margin: 24px;
 }
 
@@ -125,28 +125,29 @@ ul {
 }
 
 .contacts {
-  font-style: normal;
   display: flex;
 }
 
 .contacts-list {
   display: flex;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-style: normal;
+  gap: 40px;
+  margin-left: auto;
 }
 
 .contacts-item {
   color: #434455;
-  font-style: normal;
+  /* font-style: normal; */
   letter-spacing: 0.02em;
-  display: flex;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  margin-right: 40px;
+  /* display: flex; */
 }
 
-.contacts-list:first-child {
+/* .contacts-list:first-child {
   margin-left: 156px;
   padding-right: 40px;
-}
+} */
 
 /* HERO */
 
@@ -170,12 +171,17 @@ ul {
 /* ADVANTAGES */
 
 .advantages {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .advantages-list {
   display: flex;
+  gap: 24px;
+}
+
+.advantages-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .advantages-sub-title {
@@ -186,22 +192,23 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: left;
-  padding-top: 120px;
-  padding-bottom: 8px;
+  /* padding-top: 120px; */
+  /* padding-bottom: 8px; */
+  margin-bottom: 8px;
 }
 
 .advantages-text {
   font-size: 16px;
   letter-spacing: 0.02em;
-  padding-bottom: 120px;
-  padding-right: 24px;
+  /* padding-bottom: 120px; */
+  /* padding-right: 24px; */
 }
 /* TEAM */
 
 .team {
   background-color: #f4f4fd;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .title {
   font-weight: 500;
@@ -211,8 +218,10 @@ ul {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-top: 60px;
+  margin-bottom: 72px;
+  /* padding-top: 120px;
+  padding-bottom: 72px; */
 }
 
 .sub-title {
@@ -223,12 +232,16 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+
   padding-top: 32px;
   padding-bottom: 8px;
 }
 
 .team-list {
   background-color: #ffffff;
+  display: flex;
+
+  /* flex-wrap: wrap; */
 }
 
 .team-text {
