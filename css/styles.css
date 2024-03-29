@@ -29,15 +29,6 @@ img {
   display: block;
 }
 
-.visually-hidden {
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
-
 .container {
   width: 1158px;
   padding-left: 15px;
@@ -51,6 +42,18 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 60px;
+  margin-bottom: 72px;
 }
 
 .text {
@@ -187,6 +190,20 @@ ul {
 
 /* ADVANTAGES */
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .advantages {
   padding: 120px 0;
 }
@@ -224,10 +241,9 @@ ul {
 .team {
   background-color: #f4f4fd;
   padding: 120px 0;
-  /* padding-top: 60px;
-  padding-bottom: 120px; */
 }
-.title {
+
+.team-title {
   font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
@@ -236,25 +252,8 @@ ul {
   text-align: center;
   text-transform: capitalize;
   margin-top: 60px;
-  margin-bottom: 72px;
-  /* padding-top: 120px;
-  padding-bottom: 72px; */
+  margin-bottom: 8x;
 }
-
-.advantages-sub-title {
-  letter-spacing: 0.02em;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-align: center;
-  /* margin-top: 32px; */
-  margin-bottom: 8px;
-}
-/* padding-top: 32px;
-  padding-bottom: 8px;
-} */
 
 .team-list {
   display: flex;
@@ -264,7 +263,7 @@ ul {
 }
 
 .team-item {
-  /* border-radius: 0px 0px 4px 4px; */
+  border-radius: 0px 0px 4px 4px;
   /* margin-right: 24px; */
   /* margin-bottom: 60px; */
   /* width: calc((100% - 72px) / 4); */
@@ -278,14 +277,26 @@ ul {
   margin-bottom: 8px; */
 }
 
-.team-advantages-text {
+.team-sub-title {
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  /* margin-left: 16px; */
+}
+
+.team-text {
   font-size: 16px;
   letter-spacing: 0.02em;
   text-align: center;
 }
 
 .team-img {
-  border-radius: 0px 0px 4px 4px;
 }
 
 /* PORTFOLIO */
@@ -304,8 +315,9 @@ ul {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 8px;
   /* padding-top: 120px; */
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 
 .portfolio-subtitle {
