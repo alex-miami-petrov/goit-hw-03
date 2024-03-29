@@ -289,6 +289,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  /* text-align: left; */
   /* padding-top: 32px; */
   margin-top: 32px;
   margin-bottom: 8px;
@@ -298,7 +299,7 @@ ul {
 .portfolio-text {
   font-size: 16px;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
   margin-left: 16px;
 }
 
@@ -315,7 +316,11 @@ ul {
   border: 1px solid #e7e9fc;
   margin-right: 24px;
   margin-bottom: 48px;
-  min-width: 360px;
+  /* width: calc((100% - 72px) / 6); */
+}
+
+.portfolio-width {
+  width: 1190px;
 }
 
 .portfolio-img {
