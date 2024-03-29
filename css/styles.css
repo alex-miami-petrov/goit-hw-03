@@ -307,7 +307,7 @@ ul {
   padding-bottom: 120px;
 }
 
-.portfolis-title {
+.portfolio-title {
   font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
@@ -327,8 +327,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  /* text-align: left; */
-  /* padding-top: 32px; */
   margin-top: 32px;
   margin-bottom: 8px;
   margin-left: 16px;
@@ -337,8 +335,8 @@ ul {
 .portfolio-text {
   font-size: 16px;
   letter-spacing: 0.02em;
-  /* margin-bottom: 32px;
-  margin-left: 16px; */
+  /* margin-bottom: 32px; */
+  margin-left: 16px;
 }
 
 .portfolio-list {
